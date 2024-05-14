@@ -1,0 +1,155 @@
+.conteudo-destaque {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.informacoes {
+    width: 50%;
+}
+
+.informacoes h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.informacoes p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.chamada {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.chamada img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.video {
+    width: 50%;
+    text-align: center;
+}
+
+.video img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contato {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contato h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contato p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.borda-branca {
+    border: 2px solid #fff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .conteudo-destaque {
+        flex-direction: column;
+    }
+
+    .informacoes,
+    .video {
+        width: 100%;
+    }
+}
+
+.conteudo-pagina {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.titulo-pagina h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.informacao-pagina {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-top: 2px solid #ddd;
+}
+
+.redes-sociais,
+.area-contato,
+.localizacao {
+    flex: 1;
+    text-align: center;
+}
+
+.redes-sociais h2,
+.area-contato h2,
+.localizacao h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.redes-sociais img,
+.area-contato img,
+.localizacao img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.area-contato span {
+    display: block;
+    margin-top: 10px;
+}
+
+.localizacao img {
+    max-width: 100%;
+}
+
+.conteudo-pagina {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.titulo-pagina h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.informacao-pagina {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+}
+
+
+
